@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
-    box-sizing: border-box;
-    overflow-x: hidden;
+    box-sizing: border-box !important;
+    
 }
 
 .header{
@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    overflow-x: hidden;
 }
 .links{
     width: 40vw;
@@ -114,7 +114,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0px 100px;
-    
+    overflow-x: hidden;
 }
 .hero img{
     height: auto;
@@ -216,6 +216,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .companybased{
     width: 50vw;
@@ -239,6 +240,8 @@
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
+    overflow:visible;
+    overflow-x: hidden;
 }
 .whatisgptbased{
     background: linear-gradient(45deg,#042C54 70%,#264f79 );
@@ -276,6 +279,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .wigtitle{
     width: 20vw;
@@ -297,7 +301,6 @@
     width: 50px;
     height: 4px;
     background: linear-gradient(45deg,#5c11ac 0%,#ae67fa 50% ,#f49867 );
-    z-index: 10;
     position: absolute;
     top: -10px;
     left: 0;
@@ -340,24 +343,133 @@
     line-height: 1.5em;
 }
 
-/* Uses */
+/* Uses -------------------------------------------------------------------------------------------------------*/
 .uses{
     width: 100vw;
     height: 50vh;
-    background-color: red;
+    background-color: #040C18;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0px 100px;
+    overflow-x: hidden;
 }
 .usesTitle{
     width: 40%;
     height: 90%;
-    background-color: blue;
 }
 .usesDescription{
     width: 55%;
     height: 90%;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.usesTitle h1{
+    font-size: 25pt;
+    background: linear-gradient(90deg,#ae67fa 10%,#f49867 90%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.usesTitle h2{
+    font-size: 12pt;
+    color: #f49867;
+}
+.udBase{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    position: relative;
+}
+.udTitle{
+    width: 20%;
+    height: 100%;
+}
+.udTitle h2{
+    font-size: 13pt;
+    font-weight: 800;
+    color: white;
+}
+.udBase p{
+    font-size: 12pt;
+    width: 80%;
+    font-weight: 600;
+    color: #83adc2;
+    line-height: 1.5em;
+}
+
+
+
+/* EARLY ACCESS------------------------------------------------------------------------------------------------------- */
+.earlyAccess{
+    width: 100vw;
+    height: 90vh;
+    background-color: #040C18;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    overflow-x: hidden;
+}
+.earlyAccess img{
+    width: 850px;
+    height: auto;
+}
+.earlyAccessText{
+    width: 42vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.earlyAccessText h1{
+    font-size: 25pt;
+    background: linear-gradient(90deg,#ae67fa 10%,#f49867 90%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.earlyAccessText p{
+    font-size: 12pt;
+    width: 100%;
+    font-weight: 600;
+    color: #83adc2;
+    line-height: 1.5em;
+}
+.blue{
+    font-size: 12pt;
+    font-weight: 600;
+    color: #71E4D9;
+}
+.orange{
+    font-size: 12pt;
+    font-weight: 600;
+    color: #f49867;
+}
+
+/* REGISTER-------------------------------------------------------------------------------------------- */
+
+.register{
+    width: 100vw;
+    height: 40vh;
+    background-color: #040C18;
+    padding: 0px 60px;
+}
+.registerBase{
+    width: 100%;
+    height: 20vh;
+    background-color: red;
 }
