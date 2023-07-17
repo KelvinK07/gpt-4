@@ -20,7 +20,7 @@
     padding: 0px 100px;
 }
 .navigator{
-    width: 95vw;
+    width: 100vw;
     height: 12vh;
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
     overflow-x: hidden;
 }
 .links{
-    width: 40vw;
+    width: 60%;
     height: 12vh;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@
 }
 
 .accounts{
-    width: 12vw;
+    width: 25%;
     height: 12vh;
     display: flex;
     align-items: center;
@@ -74,8 +74,8 @@
 }
 .signin{
     background-color: rgba(73, 73, 73, 0);
-    width: 80px;
-    height: 50px;
+    width: 70px;
+    height: 40px;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -91,8 +91,8 @@
     align-items: center;
     justify-content: center;
     background-color: #FF4820;
-    width: 130px;
-    height: 60px;
+    width: 8vw;
+    height: 7vh;
     color: white;
     font-size: 14pt;
     font-weight: 600;
@@ -117,18 +117,18 @@
 }
 .hero img{
     height: auto;
-    width: 850px;
+    width: 50%;
 }
 .text{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 45vw;
+    width: 50%;
     height: 55vh;
 }
 .text h1{
-    font-size: 40pt;
+    font-size: 30pt;
     font-weight: 800;
     margin: 0px 10px;
     /* color: #CB7BBE; */
@@ -140,9 +140,9 @@
     
 }
 .text p{
-    font-size: 13pt;
+    font-size: 10pt;
     font-weight: 600;
-    margin: 0px 10px;
+    margin: 10px 10px;
     /* color: #81A2B2; */
     background: linear-gradient(89.97deg,#83adc2 1.84%,#c0deec 102.67%);
     -webkit-text-fill-color: transparent;
@@ -150,8 +150,8 @@
     -webkit-background-clip: text;
 }
 .email{
-    width: 45vw;
-    height: auto;
+    width: 100%;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -195,13 +195,14 @@
     align-items: center;
     width: 43vw;
     height: auto;
+    margin: 10px 0px;
 }
 .stranger p{
     font-size: 8pt;
     color: white;
 }
 .stranger img{
-    width: 180px;
+    width: 12vw;
 }
 
 
@@ -217,7 +218,7 @@
     overflow-x: hidden;
 }
 .companybased{
-    width: 50vw;
+    width: 70%;
     height: 20vh;
     background-color: #040C18;
     display: flex;
@@ -253,7 +254,7 @@
 }
 
 .t{
-    width: 85vw;
+    width: 95%;
     height: 25%;
     display: flex;
     flex-direction: row;
@@ -261,7 +262,7 @@
     align-items: center;
 }
 .m{
-    width: 85vw;
+    width: 95%;
     height: 40%;
     display: flex;
     flex-direction: row;
@@ -271,7 +272,7 @@
     padding-top: -50px;
 }
 .d{
-    width: 85vw;
+    width: 95%;
     height: 35%;
     display: flex;
     flex-direction: row;
@@ -291,6 +292,7 @@
 }
 .t p{
     font-weight: 600;
+    font-size: 10pt;
     color: #83adc2;
     line-height: 1.5em;
     
@@ -335,7 +337,9 @@
     margin: 0px 0px 5px 0px;
 }
 .chatbots p{
+    margin: 10px 10px 0px 0px;
     font-weight: 600;
+    font-size: 10pt;
     color: #83adc2;
     line-height: 1.5em;
 }
@@ -391,12 +395,13 @@
     height: 100%;
 }
 .udTitle h2{
-    font-size: 13pt;
+    font-size: 11pt;
     font-weight: 800;
     color: white;
+    margin: 0px 10px 0px 0px;
 }
 .udBase p{
-    font-size: 12pt;
+    font-size: 10pt;
     width: 80%;
     font-weight: 600;
     color: #83adc2;
@@ -408,7 +413,7 @@
 /* EARLY ACCESS------------------------------------------------------------------------------------------------------- */
 .earlyAccess{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-color: #040C18;
     display: flex;
     flex-direction: row;
@@ -418,11 +423,11 @@
     overflow-x: hidden;
 }
 .earlyAccess img{
-    width: 750px;
+    width: 60%;
     height: auto;
 }
 .earlyAccessText{
-    width: 42vw;
+    width: 35%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -431,7 +436,7 @@
 
 }
 .earlyAccessText h1{
-    font-size: 25pt;
+    font-size: 20pt;
     background: linear-gradient(90deg,#ae67fa 10%,#f49867 90%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -440,19 +445,19 @@
     margin-bottom: 20px;
 }
 .earlyAccessText p{
-    font-size: 12pt;
+    font-size: 11pt;
     width: 100%;
     font-weight: 600;
     color: #83adc2;
     line-height: 1.5em;
 }
 .blue{
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 600;
     color: #71E4D9;
 }
 .orange{
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 600;
     color: #f49867;
 }
@@ -484,6 +489,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    font-size: 10pt;
 }
 .registerButton button{
     height: 50px;
@@ -495,7 +501,7 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-    font-size: 14pt;
+    font-size: 13pt;
     font-weight: 800;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -521,7 +527,7 @@
 
 .blogging{
     width: 100vw;
-    height: 170vh;
+    height: 180vh;
     background-color: #040C18;
     display: flex;
     flex-direction: column;
@@ -556,18 +562,18 @@
 } */
 
 .blogging-container-groupA-cardContainer{
-    height: 130vh;
+    height: 110vh;
     width: 40vw;
     background-color: #031B34;
 }
 .blogging-container-groupA-cardContainer-img img{
     width: 100%;
-    height: auto;
+    height: 50%;
     
 }
 .blogging-container-groupA-cardContainer-text{
-    padding: 20px;
-    height: 48vh;
+    padding: 40px 20px;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -588,7 +594,7 @@
 }
 
 .blogging-container-groupB{
-    height: 130vh;
+    height: 110vh;
     width: 60vw;
     display: flex;
     flex-direction: column;
@@ -598,29 +604,29 @@
     
 }
 .blogging-container-groupB-cardContainer{
-    height: 63vh;
-    width: 23vw;
+    height: 54vh;
+    width: 20vw;
     background-color: #031B34;
 }
 .blogging-container-groupB-cardContainer-img img{
     width: 100%;
-    height: auto;
+    height: 50%;
     
 }
 .blogging-container-groupB-cardContainer-text{
     padding: 20px;
-    height: 31vh;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .blogging-container-groupB-cardContainer-text h2{
-    font-size: 20pt;
+    font-size: 15pt;
     color: white;
     font-weight: 800;
 }
 .blogging-container-groupB-cardContainer-text p{
-    font-size: 10pt;
+    font-size: 8pt;
     color: white;
     font-weight: 800;
 }
